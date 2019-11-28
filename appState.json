@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "37a55541-d7ae-442c-ad1d-6874c8393802": {
+        "id": "37a55541-d7ae-442c-ad1d-6874c8393802",
+        "parent": null,
+        "name": "TestCustomTemplate",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "284d678f-5e08-4e25-a296-31b2916ac945"
+        ],
+        "isRemovable": false,
+        "filePath": "TestCustomTemplate"
+      },
+      "284d678f-5e08-4e25-a296-31b2916ac945": {
+        "id": "284d678f-5e08-4e25-a296-31b2916ac945",
+        "parent": "37a55541-d7ae-442c-ad1d-6874c8393802",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "TestCustomTemplate/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "37a55541-d7ae-442c-ad1d-6874c8393802",
+    "openFiles": [
+      "284d678f-5e08-4e25-a296-31b2916ac945"
+    ],
+    "currentFileId": "284d678f-5e08-4e25-a296-31b2916ac945",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "TestCustomTemplate",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1574942365914
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "TestCustomTemplate",
+      "url": "https://github.com/zgma-test/TestCustomTemplate"
+    }
+  }
+}
